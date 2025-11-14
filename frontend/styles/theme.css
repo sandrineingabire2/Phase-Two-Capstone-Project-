@@ -1,0 +1,42 @@
+/* Simple theme and header/footer styles */
+.site-header {
+  border-bottom: 1px solid #e5e7eb;
+  background: var(--background);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav .cta {
+  padding: 0.4rem 0.7rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+}
+
+.site-footer {
+  border-top: 1px solid #e5e7eb;
+  margin-top: 2rem;
+}
+
+.footer-inner {
+  padding: 1.5rem 0;
+  text-align: center;
+  color: #6b7280;
+}
